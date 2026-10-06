@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: snok/container-retention-policy@d3bdcf5ce9b05f685154e4a16c39233b245e3d53 # v3.1.0
         with:
-          account: communitymaintained
+          account: ghostmaintainers
           token: ${{ secrets.IMG_RETENTION }}
           image-names: tubeless-dev
           cut-off: 7d
