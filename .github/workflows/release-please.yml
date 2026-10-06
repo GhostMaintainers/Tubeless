@@ -8,7 +8,7 @@ env:
   # Pinned to a smoke-tested ci-base build. Bump via PR after a new ci-base.yml run.
   # NOTE: keep this in sync with the test job's container.image — the env context
   # isn't available there, so the SHA is duplicated and must be bumped in both.
-  CI_BASE_IMAGE: ghcr.io/communitymaintained/tubeless-ci-base:sha-2060ab9
+  CI_BASE_IMAGE: ghcr.io/ghostmaintainers/tubeless-ci-base:latest
 
 jobs:
   test:
@@ -21,7 +21,7 @@ jobs:
     # the workspace into the container, so no compose, no detached keepalive, and
     # no `exec -T` TTY workaround are needed.
     container:
-      image: ghcr.io/communitymaintained/tubeless-ci-base:sha-2060ab9
+      image: ghcr.io/ghostmaintainers/tubeless-ci-base:latest
       credentials:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
@@ -152,24 +152,24 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
-  github-releases-to-discord:
-    name: Publish Release Notification to Discord
-    runs-on: ubuntu-latest
-    needs: [release-please, docker]
-    if: needs.release-please.outputs.release_created == 'true'
-    steps:
-      - name: Checkout
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
-      - name: GitHub Releases to Discord
-        uses: SethCohen/github-releases-to-discord@24d166886aee4646d448c8a389ff9e1ebcab3682 # v1
-        with:
-          webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          color: '2105893'
-          username: 'Releases'
-          avatar_url: 'https://cdn.discordapp.com/avatars/670096391862747159/e57fd67dc7ca0cc840a0e87a82281bc5.png?size=4096'
-          content: '<@&1529575590557126666>'
-          footer_title: 'Releases'
-          reduce_headings: true
-          release_name: ${{ needs.release-please.outputs.tag_name }}
-          release_body: ${{ needs.release-please.outputs.body }}
-          release_html_url: ${{ needs.release-please.outputs.html_url }}
+#  github-releases-to-discord:
+#    name: Publish Release Notification to Discord
+#    runs-on: ubuntu-latest
+#    needs: [release-please, docker]
+#    if: needs.release-please.outputs.release_created == 'true'
+#    steps:
+#      - name: Checkout
+#       uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+#     - name: GitHub Releases to Discord
+#       uses: SethCohen/github-releases-to-discord@24d166886aee4646d448c8a389ff9e1ebcab3682 # v1
+#       with:
+#         webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+#         color: '2105893'
+#         username: 'Releases'
+#         avatar_url: 'https://cdn.discordapp.com/avatars/670096391862747159/e57fd67dc7ca0cc840a0e87a82281bc5.png?size=4096'
+#         content: '<@&1529575590557126666>'
+#         footer_title: 'Releases'
+#         reduce_headings: true
+#         release_name: ${{ needs.release-please.outputs.tag_name }}
+#         release_body: ${{ needs.release-please.outputs.body }}
+#         release_html_url: ${{ needs.release-please.outputs.html_url }}
