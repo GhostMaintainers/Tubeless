@@ -16,8 +16,8 @@ jobs:
       contents: read
       packages: write
     env:
-      IMAGE_REPO: ghcr.io/communitymaintained/tubeless-ci-base
-      CI_BASE_IMAGE: ghcr.io/communitymaintained/tubeless-ci-base:latest
+      IMAGE_REPO: ghcr.io/ghostmaintainers/tubeless-ci-base
+      CI_BASE_IMAGE: ghcr.io/ghostmaintainers/tubeless-ci-base:latest
 
     steps:
       - name: Checkout
