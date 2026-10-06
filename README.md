@@ -5,7 +5,6 @@
 >
 > Feel free to fork this project as I want to see this evolve.
 
-
 <p align="center">
   <img
     src="priv/static/images/logo-white-wordmark-with-background.png"
