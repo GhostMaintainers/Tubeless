@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.0.2](https://github.com/GhostMaintainers/Tubeless/compare/v0.0.1...v0.0.2) (2026-10-07)
+
+
+### Bug Fixes
+
+* Change default organization from CommunityMaintained to GhostMaintainers ([d6f3b88](https://github.com/GhostMaintainers/Tubeless/commit/d6f3b882bdd709238d314f2f544e7ce52a5557c4))
+* Remove old Docker image from release workflow ([c7dad8e](https://github.com/GhostMaintainers/Tubeless/commit/c7dad8e2a5aecbbc89854f31cefa7d39781f3037))
+
+
+### Documentation
+
+* Update BASE_IMAGE in docker-compose.yml ([259400a](https://github.com/GhostMaintainers/Tubeless/commit/259400a6254734e88e6af71d001529d0d76de373))
+
 ## [0.0.1](https://github.com/GhostMaintainers/Tubeless/compare/v0.0.1...v0.0.1) (2026-10-07)
 
 
