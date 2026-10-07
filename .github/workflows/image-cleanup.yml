@@ -14,5 +14,6 @@ jobs:
           account: ghostmaintainers
           token: ${{ secrets.IMG_RETENTION }}
           image-names: tubeless-dev
+          keep-n-most-recent: 5
           cut-off: 7d
           dry-run: false
