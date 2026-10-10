@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.0.3](https://github.com/GhostMaintainers/Tubeless/compare/v0.0.2...v0.0.3) (2026-10-10)
+
+
+### Chores
+
+* **deps:** bump actions/download-artifact from 8.0.1 to 8.0.2 ([83b8ebd](https://github.com/GhostMaintainers/Tubeless/commit/83b8ebdea1a73da5073627e5318b6b2b6be94c28))
+* **deps:** bump actions/download-artifact from 8.0.1 to 8.0.2 ([4f5aa68](https://github.com/GhostMaintainers/Tubeless/commit/4f5aa686df57c5de4c1bc039e077efc00a9be0af))
+* **deps:** bump actions/upload-artifact from 7.0.1 to 7.0.2 ([e591dd5](https://github.com/GhostMaintainers/Tubeless/commit/e591dd5ba9d10f3924a6910205a95400c10759b0))
+* **deps:** bump actions/upload-artifact from 7.0.1 to 7.0.2 ([c6121e7](https://github.com/GhostMaintainers/Tubeless/commit/c6121e787e1f9d89519546f22812335eda5c9c2c))
+
+
+### Documentation
+
+* Add workflow dispatch trigger to image cleanup ([ab6b172](https://github.com/GhostMaintainers/Tubeless/commit/ab6b172d7c22ae0b1112f1113848f038150308ac))
+* Change image retention from 5 to 3 most recent ([5b905b4](https://github.com/GhostMaintainers/Tubeless/commit/5b905b4716e4dc61db2c8d5006aefd02a64fc001))
+* Fix formatting in image-cleanup.yml ([5f0d409](https://github.com/GhostMaintainers/Tubeless/commit/5f0d4097642bbc7f88763b4e5d409dff408cfd60))
+* Update Docker directory path in dependabot config ([96c7295](https://github.com/GhostMaintainers/Tubeless/commit/96c7295c7c837c58e50daa5efd006532f81ee3c0))
+
 ## [0.0.2](https://github.com/GhostMaintainers/Tubeless/compare/v0.0.1...v0.0.2) (2026-10-07)
 
 
