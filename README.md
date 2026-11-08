@@ -5,14 +5,9 @@
 >
 > I am not responsible for any security vulnerabilities or bugs that may crop up. Images are released for the latest commits.
 >
-> The Wiki is down. When the head repo got pulled, the original Wiki and all copies got taken with it. You can refer to [Pinchflat's original Wiki](https://github.com/kieraneglin/pinchflat/wiki) for most of the information. The original links are still in the README if I get around to creating the new Wiki.
+> The Wiki is down. When the head repo was pulled, the original Wiki and all copies got taken with it. You can refer to [Pinchflat's original Wiki](https://github.com/kieraneglin/pinchflat/wiki) for most of the information. The original links are still in the README if I get around to creating the new Wiki.
 >
 > Feel free to fork this project as I want to see this evolve.
-
-> [!IMPORTANT]
-> There is an active fork of Pinchflat called [Pinchflat-NGX](https://github.com/TheBadFella/Pinchflat-NGX) by [TheBadFella](https://github.com/TheBadFella/).
->
-> As of 10/7/2026, it is still receiving commits and being actively maintained.
 
 <p align="center">
   <img
