@@ -1,5 +1,7 @@
 > [!CAUTION]
-> The head repo for Tubeless has been pulled for unknown reasons. Unless development comes this way or I find the time to learn and update it, this project will remain stale. Sorry, I am not a dev and am still learning code.
+> This is a GhostMaintainer's archive of the community-maintained repo Tubeless. The head repo for Tubeless has been pulled for unknown reasons. Unless development comes this way or I find the time to learn and update it, this project will remain stale. Sorry, I am not a dev and am still learning how to code.
+>
+> Only dependency updates and security fixes will be addressed in this fork. I am not interested in touching Tubeless's codebase. For new features, bug fixes, and/or minor issues, please consider switching to [Pinchflat-NGX](https://github.com/TheBadFella/Pinchflat-NGX).
 >
 > I am not responsible for any security vulnerabilities or bugs that may crop up. Images are released for the latest commits.
 >
