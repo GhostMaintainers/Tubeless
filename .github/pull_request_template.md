@@ -17,3 +17,4 @@ N/A
 N/A
 
 - [ ] I am the original author of this code, and I am giving it freely to the community and Tubeless project maintainers
+- [ ] I confirm this is a critical issue that needs to be addressed in this fork
