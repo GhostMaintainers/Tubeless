@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.0.4](https://github.com/GhostMaintainers/Tubeless/compare/v0.0.3...v0.0.4) (2026-11-08)
+
+
+### Chores
+
+* **deps:** bump docker/login-action from 4.6.0 to 4.7.0 ([d45010f](https://github.com/GhostMaintainers/Tubeless/commit/d45010f0500fc40aa54af36bedb8227e7fd910e0))
+* **deps:** bump docker/login-action from 4.6.0 to 4.7.0 ([8f4c32d](https://github.com/GhostMaintainers/Tubeless/commit/8f4c32db0f941da520f6d2112b1b3880c829cd53))
+
+
+### Documentation
+
+* Add confirmation checkbox for critical issues ([be88f84](https://github.com/GhostMaintainers/Tubeless/commit/be88f84851605b472082a233a42f738a4a8db380))
+* Fix tense in Wiki note and update maintenance info ([873c7ca](https://github.com/GhostMaintainers/Tubeless/commit/873c7ca9176704b510e2e9346576a554991297c4))
+* Revise README for Tubeless project status ([c4b0c6f](https://github.com/GhostMaintainers/Tubeless/commit/c4b0c6fd2c705f830c337c4b9b94daf64d960a97))
+* Update bug report template with fork information ([1aba74a](https://github.com/GhostMaintainers/Tubeless/commit/1aba74acf093cfe04454859b70a29f18038be38e))
+* Update feature request template with project notes ([2c33dd5](https://github.com/GhostMaintainers/Tubeless/commit/2c33dd5994429f071547fb4a47607a970afbb8d3))
+* Update issue template with project guidelines ([280f295](https://github.com/GhostMaintainers/Tubeless/commit/280f295b88d09949d0f3493d73b975f7f2c5fb21))
+* Update pull request template with fork focus ([369c889](https://github.com/GhostMaintainers/Tubeless/commit/369c889d0b074b74cfb0e23a4ad7f29c96f65e6d))
+* Update pull request template with project notes ([220a483](https://github.com/GhostMaintainers/Tubeless/commit/220a483614c0cc49f7a10dc38d901e701685ca69))
+
 ## [0.0.3](https://github.com/GhostMaintainers/Tubeless/compare/v0.0.2...v0.0.3) (2026-10-10)
 
 
