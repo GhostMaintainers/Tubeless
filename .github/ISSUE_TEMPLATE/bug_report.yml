@@ -2,8 +2,14 @@ name: Bug Report
 description: Report a bug
 title: '[Triage] <your title here>'
 labels: ['triage']
-assignees: ['CommunityMaintained']
 body:
+  - type: markdown
+    attributes:
+      value: '**PLEASE NOTE:**'
+  - type: markdown
+    attributes:
+      value: |
+        Only dependency updates and security fixes will be addressed in this fork. I am not interested in touching Pinchflat's codebase. For new features, bug fixes, and/or minor issues, please consider switching to [Pinchflat-NGX](https://github.com/TheBadFella/Pinchflat-NGX).
   - type: textarea
     id: description
     attributes:
